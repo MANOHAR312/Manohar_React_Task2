@@ -1,0 +1,145 @@
+#parent{
+	border: 2px solid blue;
+	display: flex;
+	margin: 2%;
+	height: 700px;
+}
+.child{
+	border: 4px solid green;
+	width:17%;
+	text-align: center;
+	padding: 3%;
+	margin: 3%;
+}
+.child>img{
+	height:50%;
+	width:50%;
+}
+.pic>img{
+	height:50%;
+	width:80%;
+}
+.resume{
+	border: 4px solid yellow;
+	width: 80%;
+	margin: 3%;
+	margin-left: 0%;
+}
+.heading{
+	
+	margin-left: 2%;
+}
+.career>p{
+	
+	height: 10%;
+	margin-left: 10%;
+	margin-right: 5%;
+	text-align: justify-all;
+}
+.academic{
+	
+	height:20%;
+	margin-left: 10%;
+	margin-right: 5%;
+	text-align: justify-all;
+}
+.skills{
+	
+	height: 17%;
+	margin-left: 10%;
+	margin-right: 5%;
+	text-align: justify-all;
+}
+
+.declaration{
+	height: 15%;
+	margin-left: 10%;
+	margin-right: 5%;
+	text-align: justify-all;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  margin: 2%;
+  margin-bottom:-1%;
+  margin-top: 10%;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  }
+  .fa:hover{
+  	opacity: 0.7;
+  }
+  
+
+  /*mobile view styles*/
+@media screen and (min-width: 320px) and (max-width: 480px){
+	#parent{
+		display: inline-block;
+		margin: 1%;
+		height: 100%;
+	}
+	.child{
+		width: 85%;
+		height: 50%;
+		border-radius: 10%;
+	}
+	.resume{
+		width:90%;
+		margin:3%;
+		border-radius: 10%;
+	}
+}
+
+/*tab view*/
+@media screen and (min-width: 481px) and (max-width:768px){
+	#parent{
+		flex-wrap: wrap;
+		height: 100%;
+	}
+	.child{
+		display: flex;
+		justify-content:space-around;
+		width: 100%;
+		height: 30%;
+		border-radius: 10%;
+		
+	}
+	.resume{
+		width: 100%;
+		margin-left: 2%;
+		border-radius: 10%;
+	}
+	.academic{
+	
+	height: 27%;
+	margin-left: 10%;
+	margin-right: 5%;
+	text-align: justify-all;
+}
+	.pic{
+		width:30%;
+
+	}
+	
+	.fa{
+		
+		margin-top: -12%;
+		
+		
+	}
+	hr{
+		border-width: 0;
+	}
+	
+	
+	}

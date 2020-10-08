@@ -1,0 +1,61 @@
+{
+	"details":{
+		"name":"Chelluboina Ram manohar",
+		"image":"manohar.jpeg",
+		"email":"manohar.mech312@gmail.com",
+		"number":"7032897600",
+		"address":"6-9/Adurru"
+	},
+
+	"careerobjective":{
+		"info":"To be associated with your progressive organisation with a dynamic work sphere in order to extract my inherent skills as a professional,to further the organization's objectives and also attain my career tergets in the progress."
+	},
+
+	"educationalqualification":[
+		{
+			"institute":"Bonam Venkata Chalamayya Institute of Technology & Science",
+			"degree":"B.tech",
+			"passoutyear":"2017",
+			"percentage":"75%"
+		},
+
+		{
+			"institute":"Heavens junior college",
+			"degree":"Intermediate",
+			"passoutyear":"2013",
+			"percentage":"75%"
+		},
+
+		{
+			"institute":"Zion Public school",
+			"degree":"SSC",
+			"passoutyear":"2011",
+			"percentage":"75%"
+		}
+	],
+
+	"technicalskills":[
+		{
+			"title":"programming languages",
+			"info":["css,html,python,java,c"]
+		},
+
+		{
+			"title":"databases",
+			"info":["oracle,sql"]
+		},
+
+		{
+			"title":"operating systems",
+			"info":["unix,windows,ubuntu,kali linux"]
+		}
+		
+
+	],
+
+	"declare":{
+		"info":"I hereby declare that the above-mentioned information is correct up to my knowledge and I bear the responsibility for the correctness of the above-mentioned particulars."
+	}
+
+		
+}
